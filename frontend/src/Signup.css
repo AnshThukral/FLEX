@@ -1,0 +1,143 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(135deg, #0f0f1b, #1a1b3f);
+  background-size: 400% 400%;
+  animation: lightningBackground 10s ease infinite;
+  min-height: 100vh;
+  color: #eee;
+}
+
+@keyframes lightningBackground {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 20px;
+}
+
+.form-wrapper {
+  background-color: #151528;
+  padding: 40px 30px;
+  border-radius: 20px;
+  box-shadow: 0 0 25px rgba(118, 75, 162, 0.4);
+  max-width: 420px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: transform 0.3s ease;
+}
+
+.form-wrapper:hover {
+  transform: scale(1.02);
+  box-shadow: 0 0 40px rgba(118, 75, 162, 0.6);
+}
+
+h1 {
+  text-align: center;
+  color: #c9c9ff;
+  margin-bottom: 25px;
+  font-size: 28px;
+  font-weight: 700;
+}
+
+form {
+  width: 300px;
+}
+
+label {
+  display: block;
+  font-weight: 600;
+  margin-bottom: 8px;
+  color: #bbb;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  width: 90%;
+  padding: 12px 14px;
+  border: 2px solid #2e2e50;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  font-size: 16px;
+  background-color: #1f1f3a;
+  color: #eee;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus {
+  border-color: #764ba2;
+  box-shadow: 0 0 10px rgba(118, 75, 162, 0.5);
+  outline: none;
+}
+
+.radio-group {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 25px;
+  width: 100%;
+}
+
+.radio-option {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
+  color: #eee;
+}
+
+.radio-option input {
+  accent-color: #764ba2;
+}
+
+button {
+  width: 100%;
+  padding: 14px;
+  background: linear-gradient(90deg, #2b2e4a, #53389e);
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-weight: 600;
+  font-size: 16px;
+  cursor: pointer;
+  box-shadow: 0 0 10px #764ba2;
+  transition: background 0.3s ease, transform 0.2s ease, box-shadow 0.2s;
+}
+
+button:hover {
+  background: linear-gradient(90deg, #3d3e66, #6c4dcf);
+  transform: translateY(-2px);
+  box-shadow: 0 0 15px #9b5de5;
+}
+
+button:active {
+  transform: translateY(0);
+  box-shadow: 0 0 8px #764ba2;
+}
+
+.form-message {
+  text-align: center;
+  margin-top: 20px;
+  color: #a1ffea;
+  font-weight: 600;
+  max-width: 400px;
+  animation: glow 2s ease-in-out infinite alternate;
+}
+
+@keyframes glow {
+  from {
+    text-shadow: 0 0 5px #a1ffea;
+  }
+  to {
+    text-shadow: 0 0 15px #a1ffea;
+  }
+}
