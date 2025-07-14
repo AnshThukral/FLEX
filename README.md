@@ -12,14 +12,6 @@
 
 ---
 
-## 📸 Screenshots
-
-_Add screenshots here if you'd like, for example:_
-- Recruiter Dashboard
-- Candidate Skill Profile
-
----
-
 ## ✨ Features
 
 - **AI Resume Parsing**: Uses OpenAI NLP to extract and infer skills from uploaded resumes.
