@@ -1,6 +1,6 @@
 # Flex - AI Resume Parser & Skill Matcher
 
-[![Live Demo](https://img.shields.io/badge/Live%20Demo-Vercel-blue?logo=vercel)](https://flex-fd4dlb5od-ansh-thukrals-projects.vercel.app/)
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-Vercel-blue?logo=vercel)](https://flex-snowy.vercel.app/)
 
 > An AI-powered recruitment tool that analyzes resumes and GitHub profiles to deliver confidence-scored matches for project requirements, streamlining hiring workflows.
 
@@ -8,7 +8,7 @@
 
 ## 🚀 Live Demo
 
-🌐 [Flex Live on Vercel](https://flex-fd4dlb5od-ansh-thukrals-projects.vercel.app/)
+🌐 [Flex Live on Vercel](https://flex-snowy.vercel.app/)
 
 ---
 
